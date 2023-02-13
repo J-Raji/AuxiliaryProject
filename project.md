@@ -1,14 +1,22 @@
 ## Launch Instance-Myauxiliary-Project
 
 ![Image of Auxiliary Project](./Images/Inst.PNG)
-`mkdir shell` 
-`cd shell`
-`touch usero.sh`
-`touch names.csv`
-`vim names.csv`
+
+-`mkdir shell` 
+
+-`cd shell`
+
+-`touch usero.sh`
+
+-`touch names.csv`
+
+-`vim names.csv`
+
 -Insert 20 names
-`sudo groupadd Developers`
-`vim usero.sh`
+-`sudo groupadd Developers`
+
+-`vim usero.sh`
+
 > 
 #!/bin/bash
 userfile=$(cat names.csv)
@@ -71,13 +79,13 @@ su - -c "chmod 600 ~/.ssh/authorized_keys" $user
 
 -Code generates a PASSWORD
 >
-sudo echo -e "$PASSWORD\n$PASSWORD" | sudo passwd "$user" 
-sudo passwd -e $user
+`sudo echo -e "$PASSWORD\n$PASSWORD" | sudo passwd "$user"`
+`sudo passwd -e $user
             fi
         done
     else
     echo "Only Admin Can Onboard A User"
-    fi
+    fi`
 
 -Change directory to ssh folder
 `cd .ssh`
