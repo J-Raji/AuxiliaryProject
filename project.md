@@ -1,5 +1,6 @@
-Launch Instance-Myauxiliary-Project
-![Image of Auxiliary Project](Inst.PNG)
+## Launch Instance-Myauxiliary-Project
+
+![Image of Auxiliary Project](./Images/Inst.PNG)
 `mkdir shell` 
 `cd shell`
 `touch usero.sh`
@@ -131,7 +132,8 @@ kmaSGj362OnCCNAAAACWRhcmVARGFyZQE=
 -----END OPENSSH PRIVATE KEY-----
 ---
 
-![Image of Auxiliary Project](Inst2.PNG)
+![Image of Auxiliary Project](./Images/Inst2.PNG)
 
 Blocker-Renaming of usero.sh to onboarding_users.sh
-![Image of Auxiliary Project](blocker.PNG)
+
+![Image of Auxiliary Project](./Images/blocker.PNG)
